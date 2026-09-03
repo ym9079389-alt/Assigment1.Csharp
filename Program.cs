@@ -90,7 +90,15 @@
             }
             #endregion
 
-           
+            Console.WriteLine($"=======\n");
+
+            #region 9
+            int pagesNum = 464;
+            string strPages = pagesNum.ToString();
+            Console.WriteLine(strPages, strPages.GetType());
+            #endregion
+
+            
 
         }
     }
