@@ -26,6 +26,30 @@
             Console.WriteLine(pages);
             #endregion
 
+            Console.WriteLine($"=======\n");
+
+            #region 4
+            try
+            {
+                int n = 10;
+                int x = 0;
+                int res = n / x;
+                Console.WriteLine(res);
+            }
+            catch (DivideByZeroException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.StackTrace);
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
+            #endregion
+
             
 
         }
