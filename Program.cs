@@ -97,7 +97,7 @@
             string strPages = pagesNum.ToString();
             Console.WriteLine(strPages, strPages.GetType());
             #endregion
-
+             
             Console.WriteLine($"=======\n");
 
             #region 10
