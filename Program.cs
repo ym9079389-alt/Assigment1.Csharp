@@ -58,6 +58,14 @@
             Console.WriteLine(doublePages);
             #endregion
 
+            Console.WriteLine($"=======\n");
+
+            #region 6
+            double dprice = 49.99;
+            int iprice = (int)dprice;
+            Console.WriteLine(iprice);
+            #endregion
+
             
 
         }
