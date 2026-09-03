@@ -19,6 +19,15 @@
             Console.WriteLine(myBook.GetType());
             #endregion
 
+            Console.WriteLine($"=======\n");
+
+            #region 3
+            int pages = 464;
+            Console.WriteLine(pages);
+            #endregion
+
+            Console.WriteLine($"=======\n");
+
             
 
         }
