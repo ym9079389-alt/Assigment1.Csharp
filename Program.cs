@@ -10,7 +10,17 @@
             Console.WriteLine(bookObj);
             #endregion
 
+            Console.WriteLine($"=======\n");
+
+            #region 2
+            Console.WriteLine(myBook.ToString());
+            Console.WriteLine(myBook.Equals(myBook));
+            Console.WriteLine(myBook.GetHashCode());
+            Console.WriteLine(myBook.GetType());
+            #endregion
+
             
+
         }
     }
 }
