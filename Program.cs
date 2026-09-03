@@ -50,7 +50,15 @@
             }
             #endregion
 
-            
+            Console.WriteLine($"=======\n");
+
+            #region 5
+            int intPages = 300;
+            double doublePages = intPages;
+            Console.WriteLine(doublePages);
+            #endregion
+
+           
 
         }
     }
