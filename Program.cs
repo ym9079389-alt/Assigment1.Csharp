@@ -76,6 +76,30 @@
 
             Console.WriteLine($"=======\n");
 
+            #region 8
+            string yearText = "2023";
+            int year = int.Parse(yearText);
+            Console.WriteLine(year);
+
+
+
+            string badText = "abc";
+            if (int.TryParse(badText, out int resu))
+            {
+                Console.WriteLine("Invalid number");
+            }
+            #endregion
+
+            Console.WriteLine($"=======\n");
+
+            #region 9
+            int pagesNum = 464;
+            string strPages = pagesNum.ToString();
+            Console.WriteLine(strPages, strPages.GetType());
+            #endregion
+
+            Console.WriteLine($"=======\n");
+
             
 
         }
