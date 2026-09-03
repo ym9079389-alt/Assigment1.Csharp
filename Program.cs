@@ -66,6 +66,14 @@
             Console.WriteLine(iprice);
             #endregion
 
+            Console.WriteLine($"=======\n");
+
+            #region 7
+            string pagesText = "464"; //[cite: 1]
+            int convertedPages = Convert.ToInt32(pagesText);
+            Console.WriteLine(convertedPages);
+            #endregion
+
             
 
         }
